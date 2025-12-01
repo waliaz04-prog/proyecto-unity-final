@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e917a464a606004299f0db99a61f311, type: 3}
+  m_Name: tarjeta_4
+  m_EditorClassIdentifier: Assembly-CSharp::ItemsSO
+  pickPrefab: {fileID: 7299567513575338080, guid: 44b3f49e958f65f499d50af8be87c395, type: 3}
+  handPrefab: {fileID: 7299567513575338080, guid: 95d72e74ad72d3343b0377a98e8d40bb, type: 3}
+  item_type: 0
+  item_sprite: {fileID: 21300000, guid: 26640ee5471e0ba49a7dda6a3d06caa3, type: 3}

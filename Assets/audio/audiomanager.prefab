@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7189679561601820799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4338304670638054575}
+  - component: {fileID: -2918883156098963321}
+  m_Layer: 0
+  m_Name: audiomanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4338304670638054575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7189679561601820799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -248.06998, y: 0, z: 70.93546}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2918883156098963321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7189679561601820799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2856384e3a85214bb0c2fa9eaa7702d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  Musica:
+  - soundefect: 1
+    name: 
+    clip: {fileID: 8300000, guid: 58aa3658cbe802146820d11c7c727cc2, type: 3}
+    volume: 0.373
+    loop: 1
+    source: {fileID: 0}
+  - soundefect: 1
+    name: queguido largo
+    clip: {fileID: 8300000, guid: 01fbcb7064451bc4f9387c68b2fc32e9, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 1
+    name: ataque gordo
+    clip: {fileID: 8300000, guid: 1900350ebd1d96f43be2f49162815684, type: 3}
+    volume: 0.289
+    loop: 1
+    source: {fileID: 0}
+  - soundefect: 1
+    name: 
+    clip: {fileID: 8300000, guid: 7f9cb5a512c17fe40b230ab60c07d4dc, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 1
+    name: carga taser
+    clip: {fileID: 8300000, guid: 8daf2387628915d4da0aede6e21af1e5, type: 3}
+    volume: 0.234
+    loop: 1
+    source: {fileID: 0}
+  - soundefect: 1
+    name: 
+    clip: {fileID: 8300000, guid: 1f109edf1ad108d49b3cd7dd99565dcc, type: 3}
+    volume: 0.215
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 1
+    name: respirasion gordo
+    clip: {fileID: 8300000, guid: 049dd464e0e028d44ae71ceb4969859b, type: 3}
+    volume: 0.384
+    loop: 1
+    source: {fileID: 0}
+  - soundefect: 1
+    name: caminata gordo
+    clip: {fileID: 8300000, guid: ad447dc4a5c31524a922630303f9a939, type: 3}
+    volume: 0.185
+    loop: 1
+    source: {fileID: 0}
+  - soundefect: 1
+    name: error tarjeta
+    clip: {fileID: 8300000, guid: 4842e8509eef05d4286221b8e00287ce, type: 3}
+    volume: 0.451
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 1
+    name: activar puerta
+    clip: {fileID: 8300000, guid: 83f0ed69118259b4dadc936fd1c0045d, type: 3}
+    volume: 0.414
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 1
+    name: carca completa
+    clip: {fileID: 8300000, guid: 37d203d9367d4a34ba545e8e10c28c5e, type: 3}
+    volume: 0.259
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 1
+    name: disparo taser
+    clip: {fileID: 8300000, guid: 1f109edf1ad108d49b3cd7dd99565dcc, type: 3}
+    volume: 0.204
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 0
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 0
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 63d67c2023b979b4d949b8e887197427
+  - enabled: 1
+    path: Assets/Scenes/NIVEL PRUEVA 2.unity
+    guid: 27f6ad6881e865c498029adcfbd340f6
+  - enabled: 1
+    path: Assets/Scenes/victoria.unity
+    guid: 5ac2dd9c9e19f514b898a480ba566705
+  - enabled: 1
+    path: Assets/Scenes/creditos.unity
+    guid: 17aa08052aa238947b627dd8ea57ab5a
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0
