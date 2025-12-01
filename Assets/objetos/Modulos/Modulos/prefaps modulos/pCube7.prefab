@@ -149,5 +149,5 @@ MonoBehaviour:
   direccionMovimiento: {x: 1, y: 0, z: 0}
   distanciaMovimiento: 2
   velocidad: 2
-  sonidoAbrir: 
-  sonidoCerrar: 
+  sonidoAbrir: activar puerta
+  sonidoCerrar: activar puerta

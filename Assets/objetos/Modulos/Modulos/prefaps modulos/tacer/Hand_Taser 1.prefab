@@ -110,10 +110,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   origenDisparo: {fileID: 0}
-  sonidoDisparo: 
+  sonidoDisparo: disparo taser
   sonidoImpacto: 
   sonidoRecargaLoop: carga taser
-  sonidoRecargaCompleta: 
+  sonidoRecargaCompleta: carca completa
 --- !u!1 &5005927140548753210
 GameObject:
   m_ObjectHideFlags: 0

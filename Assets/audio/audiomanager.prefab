@@ -61,7 +61,7 @@ MonoBehaviour:
     name: ataque gordo
     clip: {fileID: 8300000, guid: 1900350ebd1d96f43be2f49162815684, type: 3}
     volume: 0.289
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - soundefect: 1
     name: 
@@ -73,7 +73,7 @@ MonoBehaviour:
     name: carga taser
     clip: {fileID: 8300000, guid: 8daf2387628915d4da0aede6e21af1e5, type: 3}
     volume: 0.234
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - soundefect: 1
     name: 
@@ -85,7 +85,7 @@ MonoBehaviour:
     name: respirasion gordo
     clip: {fileID: 8300000, guid: 049dd464e0e028d44ae71ceb4969859b, type: 3}
     volume: 0.384
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - soundefect: 1
     name: caminata gordo
