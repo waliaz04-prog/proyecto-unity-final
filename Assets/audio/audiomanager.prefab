@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   Musica:
-  - soundefect: 1
+  - soundefect: 0
     name: 
     clip: {fileID: 8300000, guid: 58aa3658cbe802146820d11c7c727cc2, type: 3}
     volume: 0.373
@@ -115,6 +115,24 @@ MonoBehaviour:
     name: disparo taser
     clip: {fileID: 8300000, guid: 1f109edf1ad108d49b3cd7dd99565dcc, type: 3}
     volume: 0.204
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 1
+    name: pasos
+    clip: {fileID: 8300000, guid: 2cb346e30dce7f648b776901937603ac, type: 3}
+    volume: 0.383
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 1
+    name: pasos_ducto
+    clip: {fileID: 8300000, guid: 119b50bd6a28f0c45893e835ec3a454e, type: 3}
+    volume: 0.426
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 0
+    name: 
+    clip: {fileID: 0}
+    volume: 0
     loop: 0
     source: {fileID: 0}
   - soundefect: 0
