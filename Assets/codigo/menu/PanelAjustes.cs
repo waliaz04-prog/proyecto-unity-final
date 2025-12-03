@@ -7,7 +7,7 @@ public class PanelAjustes : MonoBehaviour
     [SerializeField] private Slider sliderMusica;
     [SerializeField] private Slider sliderSonidos;
 
-    [Header("UI Textos (opcional)")]
+    [Header("UI Textos ")]
     [SerializeField] private Text textoMusica;
     [SerializeField] private Text textoSonidos;
 
@@ -66,7 +66,7 @@ public class PanelAjustes : MonoBehaviour
 
     private void AplicarVolumenes()
     {
-        // ?? Aplica volúmenes al AudioManager
+        //  Aplica volúmenes al AudioManager
         if (AudioManager.Instance != null)
         {
             foreach (var s in AudioManager.Instance.Musica)
