@@ -135,9 +135,9 @@ MonoBehaviour:
     volume: 0.37
     loop: 0
     source: {fileID: 0}
-  - soundefect: 0
-    name: 
-    clip: {fileID: 0}
+  - soundefect: 1
+    name: agarrar
+    clip: {fileID: 8300000, guid: 42015724118103746a085381baaa0719, type: 3}
     volume: 0
     loop: 0
     source: {fileID: 0}

@@ -176,4 +176,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemPickable
   itemScriptableObject: {fileID: 11400000, guid: 26f3ef99217b5b74ba55a0907b8439b8, type: 2}
   inventory: {fileID: 0}
-  sonidoPick: 
+  sonidoPick: agarrar
