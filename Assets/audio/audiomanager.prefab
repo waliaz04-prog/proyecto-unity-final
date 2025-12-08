@@ -129,10 +129,10 @@ MonoBehaviour:
     volume: 0.426
     loop: 0
     source: {fileID: 0}
-  - soundefect: 0
-    name: 
-    clip: {fileID: 0}
-    volume: 0
+  - soundefect: 1
+    name: ataque largo
+    clip: {fileID: 8300000, guid: 7f9cb5a512c17fe40b230ab60c07d4dc, type: 3}
+    volume: 0.37
     loop: 0
     source: {fileID: 0}
   - soundefect: 0

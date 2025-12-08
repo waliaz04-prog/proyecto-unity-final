@@ -104,8 +104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9e0e0941187ca49a2a424a22592535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AbrirPuerta
-  velocidadRotacion: 2
+  velocidadRotacion: 4
   anguloApertura: 90
+  sonidoAbrir: 
+  sonidoCerrar: 
 --- !u!64 &6634262249519213306
 MeshCollider:
   m_ObjectHideFlags: 0
