@@ -5,8 +5,8 @@ public class PlayerMove : MonoBehaviour
     private CharacterController charCtrl;
     private Animator animJugador;
 
-    private float movx;
-    private float movz;
+   public float movx;
+    public float movz;
     private Vector3 veloY;
 
     [Header("Movimiento")]

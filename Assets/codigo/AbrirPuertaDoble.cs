@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.AI;
 
 public class AbrirPuertaDoble : MonoBehaviour, IInteractable
 {
@@ -60,6 +61,17 @@ public class AbrirPuertaDoble : MonoBehaviour, IInteractable
             puertaIzquierda.position = Vector3.Lerp(puertaIzquierda.position, objetivoIzq, Time.deltaTime * velocidad);
             puertaDerecha.position = Vector3.Lerp(puertaDerecha.position, objetivoDer, Time.deltaTime * velocidad);
             yield return null;
+        }
+
+        if (abrir && puertaIzquierda.TryGetComponent(out NavMeshObstacle navMeshIzq) && puertaDerecha.TryGetComponent(out NavMeshObstacle navMeshDer))
+        {
+            Destroy(navMeshDer);
+            Destroy(navMeshIzq);
+        }
+        else if (!abrir)
+        {
+            puertaDerecha.gameObject.AddComponent<NavMeshObstacle>();
+            puertaIzquierda.gameObject.AddComponent<NavMeshObstacle>();
         }
 
         puertaIzquierda.position = objetivoIzq;

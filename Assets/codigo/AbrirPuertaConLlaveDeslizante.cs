@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.AI;
+using Unity.VisualScripting;
 
 public class AbrirPuertaConLlaveDeslizante : MonoBehaviour, IInteractable
 {
@@ -81,6 +83,16 @@ public class AbrirPuertaConLlaveDeslizante : MonoBehaviour, IInteractable
         }
 
         puerta.position = objetivo;
+        
+        if(abrir && puerta.TryGetComponent(out NavMeshObstacle navMeshObstacle))
+        {
+            Destroy(navMeshObstacle);
+        }
+        else if(!abrir)
+        {
+            puerta.AddComponent<NavMeshObstacle>();
+        }
+
         enAnimacion = false;
     }
 }

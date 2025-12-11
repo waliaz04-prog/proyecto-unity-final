@@ -1,5 +1,7 @@
-using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.AI;
 
 public class AbrirPuertaDeslizante : MonoBehaviour, IInteractable
 {
@@ -48,6 +50,7 @@ public class AbrirPuertaDeslizante : MonoBehaviour, IInteractable
         StopAllCoroutines();
         StartCoroutine(MoverPuerta(puertaAbierta));
     }
+ 
 
     private IEnumerator MoverPuerta(bool abrir)
     {
@@ -58,8 +61,7 @@ public class AbrirPuertaDeslizante : MonoBehaviour, IInteractable
         {
             puerta.position = Vector3.Lerp(puerta.position, objetivo, Time.deltaTime * velocidad);
             yield return null;
-        }
-
+        }       
         puerta.position = objetivo;
         enAnimacion = false;
     }
