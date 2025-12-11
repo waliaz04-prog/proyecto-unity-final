@@ -141,6 +141,18 @@ MonoBehaviour:
     volume: 0
     loop: 0
     source: {fileID: 0}
+  - soundefect: 1
+    name: Muerte jugador
+    clip: {fileID: 8300000, guid: f14d2388a64962d4ca241c029b1865c5, type: 3}
+    volume: 0.285
+    loop: 0
+    source: {fileID: 0}
+  - soundefect: 0
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
   - soundefect: 0
     name: 
     clip: {fileID: 0}

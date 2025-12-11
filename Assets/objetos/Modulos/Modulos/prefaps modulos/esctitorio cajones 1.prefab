@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7278276958927040646}
+  - component: {fileID: 4514298716723337809}
   m_Layer: 13
   m_Name: esctitorio cajones 1
   m_TagString: Untagged
@@ -36,6 +37,27 @@ Transform:
   - {fileID: 2372701504674263818}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4514298716723337809
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173510088766047734}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0257263, y: 0.09353703, z: 2.9798484}
+  m_Center: {x: -0.18159485, y: 0.8685435, z: -0.07405448}
 --- !u!1 &3916394547390341427
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,6 +183,7 @@ GameObject:
   - component: {fileID: 3822126819281117051}
   - component: {fileID: 8102420804117825410}
   - component: {fileID: 1776008716506736556}
+  - component: {fileID: 6891724104982105322}
   m_Layer: 13
   m_Name: EscConCajones:pCube9
   m_TagString: Untagged
@@ -277,6 +300,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7656602333908580636, guid: 2a80ecca65399ff4989592665f13a5fd, type: 3}
+--- !u!65 &6891724104982105322
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5798485703155261578}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.067184925, z: 1.0000002}
+  m_Center: {x: 0, y: 0.81640756, z: -0}
 --- !u!1 &5829353470881183922
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,4 +15,4 @@ MonoBehaviour:
   pickPrefab: {fileID: 4021272917806074547, guid: 6aeaaf1b82640c9468237caf53108568, type: 3}
   handPrefab: {fileID: 4021272917806074547, guid: 94533c7e991a1154cb9300884efd0ff2, type: 3}
   item_type: 0
-  item_sprite: {fileID: 21300000, guid: fdd57b4cc30e93545bc8fde98ecebae0, type: 3}
+  item_sprite: {fileID: 21300000, guid: bdebdde4bedcd734091b44ba412316eb, type: 3}
