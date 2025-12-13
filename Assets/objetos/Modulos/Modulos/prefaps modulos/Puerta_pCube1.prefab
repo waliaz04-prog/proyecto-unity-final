@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5944708309994288814}
   - component: {fileID: 4470066167741641103}
   - component: {fileID: 1869546063759996575}
-  - component: {fileID: 8769003813498455348}
   m_Layer: 0
   m_Name: Puerta_pCube1
   m_TagString: Puerta
@@ -113,24 +112,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1039127967665727512, guid: 8e679d5f08e63de44a6b246364168404, type: 3}
---- !u!65 &8769003813498455348
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3553479538025370157}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 2.25, z: 0.7792587}
-  m_Center: {x: 0.5, y: 1.125, z: -0.032073975}
